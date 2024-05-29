@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&display=swap"
+    rel="stylesheet">
+</head>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="sleep.html">Sleep</a>
+  <a href="meditation.html">Meditation</a>
+  <a href="exercise.html">Exercise</a>
+  <a>LoFi Music:</a>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3WLDIcG4Cx2UOPy0rbFhQn?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  <a>Classical Music:</a>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1h0CEZCm6IbFTbxThn6Xcs?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  <a><br><br></a>
+
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+<div id="main">
+
+  <h1>Exercise:</h1>
+<img SRC="https://i.pinimg.com/originals/00/ee/ac/00eeac5b1444e1ef38d699e7ad42a2b1.gif" width="500" id="image">
+  <p>Many students come home from a long day of school to loads of homework and tests to study for. Combined with
+    mealtime and other responsibilities, it can be difficult to find time to work out. </p>
+  <p>While you're doing your homework, try getting up and stretching or walking around your house for a minute or 2.
+    This will allow you to stretch out unused muscles and prevent back pain. Furthermore, changing your work enviornment
+    can improve your brain function and allow you to focus better upon returning to your work!</p>
+  <p>Here are some yoga poses you can try!</p>
+  <h3>Tree Pose:</h3>
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/5c3bbf8f7e3c3a543cd67edb/1569908671765-35EA2B1FNSMMXSTA498R/tree.png?format=1000w"
+    alt="Tree Pose" width="400" height="400">
+  <p>Step 1. Bend one leg and keep the other on the floor.
+  <p> Step 2. Place the foot of your bent leg on your standing leg's lower inner thigh. </p>
+  <p> Step 3. Clasp your hands together in Anjali Mudra (also called the “prayer position”) and raise your arms above
+    your head. In this form, your head, shoulders, pelvis, and left foot should align vertically (MasterClass). Hold for
+    30 seconds and repeat with the opposite leg. </p>
+  <p>This pose stretches your feet, improves your balance, and can strengthen your core! Balancing your total body
+    weight on one foot engages your lower and middle body. But remember to keep your back straight and avoid pressing
+    your foot right into your knee!</p>
+  <h3>Cobra Pose:</h3>
+  <img
+    src="https://experiencelife.lifetime.life/wp-content/uploads/2021/02/Cobra.jpg"
+    alt="Cobra Pose" width="640" height="400">
+  <p>Step 1: On a flat, soft surface (like a yoga mat), lie down on your belly. Keep your feet hip-distance apart on the
+    floor and place your hands behind your ribs. </p>
+  <p>Step 2: Pressing down lightly with your hands, start to lift your head and chest, rolling your shoulders back and
+    down.</p>
+  <p>Step 3:Keeping your neck long and straight, Straighten your arms while keeping your shoulders remaining away from
+    your ears. Keep at least a slight bend in your elbows.</p>
+  <p>Step 4: Hold for 20-30 seconds, then release back to the mat to end the pose.</p>
+  <p>The Cobra pose is ideal for those who do computer work and seated for long periods of time. Doing this exercise
+    stretches the back and improves your posture. This can also build confidence as you stretch high for your dreams!
+    Remember to only stretch as far as you're comfortable. </p>
+  </body>
+  <!--Text boxes for questions: -->
+  <h4>See if you can answer these questions:</h4>
+  <h5>How many minutes of exercise should teens minimum should teens get daily?</h5>
+  <input type="radio" id="1" name="ExMins" value="1">
+<label for="1">10 minutes</label><br>
+<input type="radio" id="2" name="ExMins" value="2">
+<label for="2">30 minutes</label><br>
+<input type="radio" id="3" name="ExMins" value="3">
+<label for="3">1 hour</label><br>
+    <button type="button" value = "submit" onclick="myFunction1()">
+        Submit
+    </button>
+
+    <p id="final1"></p>
+  
+    <br>
+      
+    <div id="result"></div>
+  <!--Answer1 should be: 30 minutes per day. Answer2 should be: 3 to 4 days per week.-->
+<h5>How many days a week minimum should teens exercise?</h5>
+  <input type="radio" id="4" name="fav_language" value="4">
+<label for="4">2 days</label><br>
+<input type="radio" id="5" name="fav_language" value="5">
+<label for="5">1 day</label><br>
+<input type="radio" id="6" name="fav_language" value="6">
+<label for="6">5-6 days</label><br>
+<input type="radio" id="7" name="fav_language" value="7">
+<label for="7">3-4 days</label><br>
+
+    <button type="submit" onclick="myFunction()" value="Submit">Submit</button>
+
+    <p id="final"></p>
+     <br>
+      
+    <script>    
+  <div id="result"></div>
+
+
+    </script>
+
+
+</div>
+<script src="script.js"></script>
+
+</html>
